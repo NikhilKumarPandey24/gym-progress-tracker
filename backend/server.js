@@ -181,3 +181,6 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`📊 Database: ${process.env.DB_NAME}`);
   console.log(`✅ Ready to accept connections!`);
 });
+
+// Export for Vercel
+module.exports = app;
